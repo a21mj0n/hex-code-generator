@@ -2,7 +2,7 @@ const body = document.querySelector('body');
 const tooltip = document.querySelector('.tooltip');
 const generateButton = document.querySelector('#generateButton');
 const hexCodeText = document.querySelector('#hexCodeText');
-const string = 'ABCDEFGH123456789';
+const string = 'ABCDEF123456789';
 
 function generateColor() {
   let hexCode = '#';
